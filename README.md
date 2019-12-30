@@ -1,4 +1,4 @@
-<h1> Gerador de Qr Code <h1>
+<h1> Gerador de Qr Code </h1>
 Este codigo foi desenvolvido para gera Qr code automático usando a biblioteca PyQRCode 1.2.1 juntamente com o PyQt5
 
 #QrCode_Generator
