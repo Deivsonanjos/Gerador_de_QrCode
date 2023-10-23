@@ -1,10 +1,46 @@
-<h1> Gerador de Qr Code </h1>
-<h1><a href="http://www.mediafire.com/file/28b1k1nqa3bgtey/Gera_Code.rar/file">Baixar Aqui</a></h1>
-Este codigo foi desenvolvido para gerar Qr code automático usando a biblioteca PyQRCode 1.2.1 juntamente com o PyQt5
+# Gerador de QR Code com PyQt5
 
-#QrCode_Generator
-This code was developed to generate automatic Qr code using PyQRCode 1.2.1 library together with PyQt5
+Este é um pequeno projeto em Python que utiliza a biblioteca PyQt5 para criar QR Codes de maneira simples e fácil. Com este código, você poderá gerar QR Codes personalizados com facilidade.
 
-*O Qr Code será gerado no mesmo diretorio que o executável
+## Requisitos
 
-*The Qr Code will be generated in the same directory as the executable.
+Certifique-se de que você possui o Python instalado em seu sistema. Você precisará também da biblioteca PyQt5, que pode ser instalada via pip:
+
+```bash
+pip install PyQt5
+```
+
+## Como Usar
+
+1. Clone este repositório em seu sistema:
+
+```bash
+git clone https://github.com/seuusuario/gerador-qrcode-pyqt5.git
+cd gerador-qrcode-pyqt5
+```
+
+2. Execute o script `gerador_qrcode.py`:
+
+```bash
+python gerador_qrcode.py
+```
+
+3. A interface gráfica será exibida. Insira o texto que deseja codificar no campo de entrada e clique no botão "Gerar QR Code".
+
+4. O QR Code gerado será exibido na janela. Você pode salvá-lo clicando no botão "Salvar QR Code" e escolhendo o local desejado.
+
+## Personalização
+
+Você pode personalizar a aparência do QR Code, como a cor de fundo e a cor do módulo, editando as variáveis no arquivo `gerador_qrcode.py`.
+
+## Contribuição
+
+Sinta-se à vontade para contribuir para este projeto. Se você encontrar problemas ou tiver melhorias a sugerir, crie uma *issue* ou envie um *pull request*.
+
+## Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para obter detalhes.
+
+---
+
+Espero que este projeto seja útil para você. Divirta-se criando seus próprios QR Codes com PyQt5!
